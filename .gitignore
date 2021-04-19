@@ -296,3 +296,5 @@ Thumbs.db #thumbnail cache on Windows
 
 images/
 tutorials/
+*.h5
+record.md
