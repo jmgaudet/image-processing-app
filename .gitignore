@@ -298,3 +298,5 @@ images/
 tutorials/
 *.h5
 record.md
+graphs/
+models/
