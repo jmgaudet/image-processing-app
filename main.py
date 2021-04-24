@@ -26,3 +26,20 @@ def draw_something():
 if __name__ == '__main__':
     print_versions()
     draw_something()
+
+
+
+
+
+
+def segment_diaphram2(image):
+    for x in image[0]:
+        minimum, maximum, _, _ = ndimage.extrema(x)
+        print(f'min: {minimum}, max: {maximum}')
+
+        blurred_image = ndimage.gaussian_filter(x, sigma=3)
+        x = tf.where(blurred_image > 195, 0, x) 
+    return image
+
+def tf_segment_diaphram(image, label):
+    pass
