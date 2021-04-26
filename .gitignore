@@ -299,7 +299,5 @@ tutorials/
 *.h5
 record.md
 graphs/
-models/
-kaggle_existing.*
 rough-copies/
 logs/
